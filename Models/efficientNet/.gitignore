@@ -1,0 +1,4 @@
+# model and tuner logs in google drive
+/efficient.h5
+/efficient.keras
+/tuner_logs 

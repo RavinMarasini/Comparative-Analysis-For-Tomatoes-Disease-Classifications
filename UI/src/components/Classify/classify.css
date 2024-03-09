@@ -1,0 +1,48 @@
+.classify {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.classify label {
+  padding: 0.8em 1.4em;
+  background-color: #0bda51;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.3em;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+.classify label:hover {
+  cursor: pointer;
+  background-color: #2aaa8a;
+}
+.classify img {
+  width: 100%;
+}
+.report {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+.reportLoading {
+  height: 60px;
+  width: 40vw;
+  border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+  .classify {
+    margin-top: 0;
+  }
+  .classify label {
+    font-size: 13px;
+  }
+}
+.errorMsg{
+  color: red;
+}

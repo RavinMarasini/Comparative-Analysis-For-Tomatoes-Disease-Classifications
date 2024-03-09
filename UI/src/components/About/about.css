@@ -1,0 +1,22 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  border-bottom: 2px wavvy #0bda51;
+  text-decoration: #0bda51 wavy underline;
+  text-decoration-skip-ink: none;
+}
+
+.about p {
+  font-size: 1.2rem;
+}
